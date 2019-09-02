@@ -1,21 +1,27 @@
-html{
+*{
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Montserrat';
 }
 
 body{
-  margin: 30px 50px;
+  margin: 2rem 3rem;
+  background-color: #3498db;
+}
+
+.wrapper{
+  text-align: center;
+  
+  border-radius: 4px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border: 3px solid white;
 }
 
 .form{
-  background-color: #3498db;
-  padding: 10px 0 10px 0;
-  margin-bottom: 10px;
-  border-radius: 4px;
-  padding: 10px 10px 10px 10px;
+  padding: 1rem;
 }
 
-#pattern{
+.input{
   display: block;
   margin: auto;
   border: none;
@@ -23,13 +29,13 @@ body{
   height: 1.7rem;
   font-size: 1.4rem;
   border-radius: 4px;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 .sbtn{
   display: block;
   margin: auto;
-  width: 30%;
+  width: 40%;
   font-size: 1.4rem;
   border: none;
   border-radius: 3px;
@@ -42,9 +48,9 @@ body{
 
 .card{
   text-align: center;
-  border: solid 2px lightblue;
-  padding: 10px;
-  border-radius: 3px;
+  padding: 1rem;
+  border-radius: 6px;
+  background-color: white;
 }
 
 .card h4{
@@ -58,19 +64,21 @@ body{
 
 img{
   border: solid 2px black;
-  margin-top: 10px;
+  width: 8rem;
+  height: auto;
+  margin-top: 1rem;
 }
 
 .container{
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 
 }
 
 @media(max-width: 600px) {
   body{
-    margin: 20px 20px;
+    margin: 1rem;
   }
 
   .sbtn, #pattern{

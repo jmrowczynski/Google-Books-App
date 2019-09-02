@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-  integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-  crossorigin="anonymous">
-  <title>Books Search</title>
-</head>
-<body>
-  <div class="form">
-    <input type="text" id="pattern" placeholder="Tytuł..." value = "" name="title">
-    <input type="submit" class="sbtn" onclick="search()" value="Szukaj">
-  </div>
-
-
-  <div id="root"></div>
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700">
+    <title>Books Search</title>
+  </head>
+  <body>
+    <div class="wrapper">
+        <h1>GOOGLE BOOKS SEARCH</h1>
+        <form class="form">
+          <input type="text" class="input" id="pattern" placeholder="Tytuł..." value = "" name="title">
+          <button type="submit" class="sbtn">Szukaj</button>
+        </form>
+    </div>
+    <div id="root"></div>
+    <script src="script.js"></script>
+  </body>
 </html>
